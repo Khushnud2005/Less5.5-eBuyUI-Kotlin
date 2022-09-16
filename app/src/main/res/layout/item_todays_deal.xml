@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="170dp"
+    android:layout_height="300dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="@color/black">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_image_deal"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:padding="20dp"
+                android:src="@drawable/im_product_1"
+                android:background="@drawable/shape_border_rounded_white"/>
+
+            <TextView
+                android:id="@+id/tv_title_deal"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="Bose QuietComfort Earbuds"
+                android:textColor="#E1E1E1"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:id="@+id/tv_price_deal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$165.00"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_oldPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$200.00"
+                    android:textColor="#90FFFFFF"
+                    android:textSize="15sp"
+                    android:layout_marginRight="10dp"/>
+                <TextView
+                    android:id="@+id/tv_discount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="25% OFF"
+                    android:textColor="#90FFFFFF"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+</LinearLayout>
